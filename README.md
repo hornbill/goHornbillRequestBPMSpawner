@@ -30,7 +30,7 @@ The utility can take the following input parameters:
 * `csv` [MANDATORY] - the name of the csv file you wish to pull data from
 * `defaultbpm` [OPTIONAL] - the ID of a BPM workflow that you want to be spawned for ALL requests in the CSV file. The Service and/or Catalog BPMs will be ignored
 
-### Execute
+## Execute
 
 * Download the OS and architecture specific ZIP archive from [Github](https://github.com/hornbill/goHornbillRequestBPMSpawner/releases)
 * Extract zip into a folder you would like the application to run from e.g. `C:\spawner\`
@@ -38,6 +38,6 @@ The utility can take the following input parameters:
 * Change Directory to the folder containing the executable `C:\spawner\`
 * Run the command `bpmSpawner.exe -instance=yourinstanceid -apikey=yourapikey -csv=requests.csv`
 
-### Logging
+## Logging
 
 The tool will generate a log file, dropped into the log folder (which will be created if doesn't already exist) in the same folder as the executable.
